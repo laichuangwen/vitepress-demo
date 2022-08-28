@@ -23,7 +23,8 @@ const decoded = computed(() => {
 
 .example-source{
     position: relative;
-    background-color: #f5f7fa;
+    color: #fff;
+    background-color: var(--vp-code-block-bg) !important;
     padding: 1em;
    &:before {
         position: absolute;
