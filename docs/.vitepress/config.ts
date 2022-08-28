@@ -1,5 +1,6 @@
 import { markdownConfig } from './plugins/markdown-plugin';
 export default {
+  outDir: '../dist',
   title: '前端开发文档',
   description: 'Just playing around.',
   markdown: {
