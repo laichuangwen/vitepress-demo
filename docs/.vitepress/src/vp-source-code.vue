@@ -22,18 +22,10 @@ const decoded = computed(() => {
 <style scoped lang="scss">
 
 .example-source{
+    overflow-x: scroll;
     position: relative;
     color: #fff;
     background-color: var(--vp-code-block-bg) !important;
     padding: 1em;
-   &:before {
-        position: absolute;
-        top: 0.4em;
-        right: 0.8em;
-        z-index: 2;
-        content: 'vue';
-        font-size: 12px;
-        opacity: .6;
-    }
 }
 </style>
