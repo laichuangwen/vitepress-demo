@@ -1,5 +1,6 @@
 import { markdownConfig } from './plugins/markdown-plugin';
 export default {
+  base: '/vitepress-demo/',
   outDir: '../dist',
   title: '前端开发文档',
   description: 'Just playing around.',
